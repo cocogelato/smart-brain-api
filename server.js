@@ -24,7 +24,6 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-// testing out the changes
 app.get('/', (req, res)=> {
 	res.send("it's working!");
 })
